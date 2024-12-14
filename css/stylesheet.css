@@ -1,0 +1,275 @@
+html {
+    background-color: #F2E8DE;
+}
+
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.instrument-sans {
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+ul.main-nav-links {
+    list-style-type: none;
+    padding: 100;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+li {
+    display: inline;
+    float: right;
+    margin: 0 15px;
+}
+
+
+li a {
+    display: block;
+    color: #4B2743;
+    text-align: center;
+    padding: 18px 10px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Instrument Serif", serif;
+}
+
+li.p-eddy {
+    display: block;
+    color: #4B2743;
+    text-align: center;
+    margin-right: 600px;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Instrument Serif", serif;
+}
+
+li a:hover {
+    color: #244C43;
+}
+
+.active {
+    color: #244C43;
+    border-radius: 50px;
+    border-color: #244C43;
+}
+
+.topline {
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 2px;
+    background-color: #9A4C35;
+}
+
+.buffer {
+    margin-top: 30px;
+}
+
+h1.Payton-Eddy {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 135px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+p.home-paragraph {
+    color: #4B2743;
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1.about-me {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    margin-bottom: 0px;
+    margin-left: 520px;
+}
+
+p.about-me-p {
+    color: #4B2743;
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0px;
+    width: 45%;
+    margin-left: 520px;
+}
+
+h1.design-philosophy {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+p.design-philosophy-p {
+    color: #4B2743;
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0px;
+    max-width: 920px;
+    margin: auto;
+}
+
+.about-line {
+    margin-top: -21px;
+    padding-top: 0px;
+    height: 2px;
+    background-color: #9A4C35;
+}
+
+.philosophy-line {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    height: 2px;
+    background-color: #9A4C35;
+}
+
+h1.contact {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-left: 750px;
+}
+
+p.contact-info {
+    color: #4B2743;
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 750px;
+}
+
+.contact-line {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    height: 2px;
+    background-color: #9A4C35;
+    max-width: 825px;
+    margin-left: 450px;
+}
+
+h1.resume {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: -175px;
+}
+
+
+.homeline {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    height: 2px;
+    background-color: #9A4C35;
+    max-width: 400px;
+    margin-left: 625px;
+}
+
+.gallery-title {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-left: 525px;
+}
+
+.works-title {
+    color: #4B2743;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+
+.works-description {
+    color: #4B2743;
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: -10px;
+    max-width: 575px;
+    margin-left: 600px;
+}
+
+.works-info {
+    color: #4B2743;
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-variation-settings: "width" 100;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0px;
+    max-width: 600px;
+    margin-left: 600px;
+}
+
+
